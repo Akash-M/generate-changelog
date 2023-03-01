@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 'use strict';
 
-var Bluebird = require('bluebird');
+const Bluebird = require('bluebird');
 
-var CLI       = require('../lib/cli');
-var Changelog = require('../lib');
-var File      = require('../lib/file');
+const CLI       = require('../lib/cli');
+const Changelog = require('../lib');
+const File      = require('../lib/file');
 
 CLI.parse(process.argv);
 
