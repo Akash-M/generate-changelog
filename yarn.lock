@@ -1123,7 +1123,7 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=df0bf1"
   dependencies:
     node-gyp: latest
   conditions: os=darwin
@@ -1145,28 +1145,6 @@ __metadata:
   checksum: 788b6bfe52f1dd8e263cda800c26ac0ca2ff6de0b6eee2fe0d9e3abf15e149b651bd27bf5226be10e6e3edb5c4e5d5985a5a1a98137e7a892f75eff76467ad2d
   languageName: node
   linkType: hard
-
-"generate-changelog@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "generate-changelog@workspace:."
-  dependencies:
-    bluebird: ^3.7.2
-    chai: ^4.3.7
-    chai-as-promised: ^7.1.1
-    commander: ^10.0.0
-    coveralls: ^3.1.1
-    eslint: ^8.35.0
-    eslint-config-lob: ^5.2.0
-    eslint-plugin-lob: ^1.2.0
-    github-url-from-git: ^1.5.0
-    istanbul: ^0.4.5
-    mocha: ^10.2.0
-    sinon: ^15.0.1
-  bin:
-    changelog: ./bin/generate
-    generate-changelog: ./bin/generate
-  languageName: unknown
-  linkType: soft
 
 "get-caller-file@npm:^2.0.5":
   version: 2.0.5
@@ -2372,7 +2350,7 @@ __metadata:
 
 "resolve@patch:resolve@1.1.x#~builtin<compat/resolve>":
   version: 1.1.7
-  resolution: "resolve@patch:resolve@npm%3A1.1.7#~builtin<compat/resolve>::version=1.1.7&hash=07638b"
+  resolution: "resolve@patch:resolve@npm%3A1.1.7#~builtin<compat/resolve>::version=1.1.7&hash=3bafbf"
   checksum: e9dbca78600ae56835c43a09f1276876c883e4b4bbd43e2683fa140671519d2bdebeb1c1576ca87c8c508ae2987b3ec481645ac5d3054b0f23254cfc1ce49942
   languageName: node
   linkType: hard
@@ -2646,6 +2624,28 @@ __metadata:
   checksum: 8a278bed123aa9f53549b256a36b719e317c8b96fe86a63406f3c62887f78267cea9b22dc6f7007009738509800d4a4dccc444abd71d762287c90f35b002eb1c
   languageName: node
   linkType: hard
+
+"test-changelog-generator@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "test-changelog-generator@workspace:."
+  dependencies:
+    bluebird: ^3.7.2
+    chai: ^4.3.7
+    chai-as-promised: ^7.1.1
+    commander: ^10.0.0
+    coveralls: ^3.1.1
+    eslint: ^8.35.0
+    eslint-config-lob: ^5.2.0
+    eslint-plugin-lob: ^1.2.0
+    github-url-from-git: ^1.5.0
+    istanbul: ^0.4.5
+    mocha: ^10.2.0
+    sinon: ^15.0.1
+  bin:
+    changelog: ./bin/generate
+    generate-changelog: ./bin/generate
+  languageName: unknown
+  linkType: soft
 
 "text-table@npm:^0.2.0":
   version: 0.2.0
